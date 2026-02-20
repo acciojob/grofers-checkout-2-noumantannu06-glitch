@@ -8,6 +8,47 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Grofers Checkout</h1>
+    
+    <!-- Grocery List Table -->
+    <table id="groceryTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price per Unit (₹)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rice (5kg)</td>
+                <td>1</td>
+                <td data-ns-test="prices">250.00</td>
+            </tr>
+            <tr>
+                <td>Wheat Flour (2kg)</td>
+                <td>2</td>
+                <td data-ns-test="prices">120.00</td>
+            </tr>
+            <tr>
+                <td>Sugar (1kg)</td>
+                <td>1</td>
+                <td data-ns-test="prices">45.00</td>
+            </tr>
+            <tr>
+                <td>Milk (1L)</td>
+                <td>3</td>
+                <td data-ns-test="prices">65.00</td>
+            </tr>
+            <tr>
+                <td>Oil (1L)</td>
+                <td>1</td>
+                <td data-ns-test="prices">180.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="calculateTotal()">Calculate Total</button>
     <script type="text/javascript" src="./script.js">
 </script>
 
